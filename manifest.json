@@ -1,0 +1,41 @@
+{
+	"name": "wepiano",
+	"short_name": "wepiano",
+	"version": "1",
+	"description": "A never ending song, created by everyone.",
+	"launch_path": "https://pumpn.net/wepiano/",
+	"start_url": "https://pumpn.net/wepiano/",
+	"display": "standalone",
+	"orientation": "any",
+	"theme_color": "#6056ea",
+    "background_color": "#6056ea",
+	"gcm_sender_id": "482941778795",
+	"default_locale": "en",
+	"permissions": {
+	},
+	"locales": {
+		"en": {
+			"name": "wepiano",
+			"description": "a music experiment, just for fun"
+		}
+	},
+	"developer": {
+		"name": "Nano Miratus",
+		"url": ""
+	},
+	"installs_allowed_from": [
+		"*"
+	],
+	"icons": [
+        {
+            "src": "favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,870 @@
+﻿/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+body {
+	font-family: "Somatic Rounded";
+	letter-spacing: normal;
+    font-weight: 700;
+	overflow: hidden;
+	background-color: #f7f7f7;
+}
+
+/* .wepiano-layout #site {
+	width: 100%;
+    height: 100%;
+    padding: 2% 10% 4%;
+	background: none;
+	margin-top: 41px;
+    position: fixed;
+} */
+
+.wepiano-layout #site {
+    width: 100%;
+    height: calc(100% - 41px);
+    padding: 2% 10% 2%;
+    background: none;
+    top: 41px;
+    position: absolute;
+}
+
+.wepiano-layout h2 {
+	font-family: "Somatic Rounded";
+	letter-spacing: normal;
+    font-weight: 700;
+	color: #000000;
+	margin-bottom: 0;
+}
+
+.wepiano-layout md-list md-list-item .md-list-item-text p {
+    color: rgba(0,0,0,0.54);
+}
+
+.wepiano-layout md-icon svg {
+    fill: white;
+}
+
+.wepiano-layout .md-open-menu-container {
+	z-index: 100;
+}
+
+.wepiano-layout h1 {
+	font-family: "Somatic Rounded";
+	letter-spacing: normal;
+	font-weight: normal;
+	color: white;
+}
+
+.wepiano-layout md-toolbar {
+	background-color: #6056ea;
+	color: #000000;
+	height: 41px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0 auto;
+	position: fixed;
+	min-height: 0;
+}
+
+.wepiano-layout .md-toolbar-tools {
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+#titlecontainer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+}
+
+#geniuslogo {
+	height: 50%;
+	margin-right: 10px;
+}
+
+.wepiano-layout md-toolbar .md-menu {
+    margin: 0 -8px 0 0;
+}
+
+.wepiano-layout .md-icon-button.md-focused {
+	background: none;
+}
+
+.wepiano-layout .md-button.md-focused {
+	background: none;
+}
+
+.wepiano-layout md-menu-item>.md-button.md-focused {
+	background-color: rgba(158,158,158,0.2);
+}
+
+.md-list-item-inner md-icon svg {
+	fill:#6056ea
+}
+
+.wepiano-layout md-backdrop.md-opaque {
+/* 	opacity: 0;
+	background-color: rgba(255, 255, 255, 0);
+	display: none; */
+}
+
+
+
+#black-icon {
+	color: white;
+	fill: white;
+}
+
+.wepiano-layout md-sidenav {
+	border-right: #6056ea solid 3px;
+}
+
+#wepianodrawertitle {
+	font-family: "Somatic Rounded";
+	letter-spacing: normal;
+	font-weight: normal;
+	color: #6056ea;
+}
+
+.wepiano-layout md-list {
+    padding: 0;
+}
+
+.wepiano-layout .md-primary p {
+	color: #6056ea;
+}
+
+.wepiano-layout md-card {
+	box-shadow: none;
+	margin: 0;
+}
+
+.wepiano-layout md-card md-card-content {
+	height: 100%;
+}
+
+.wepiano-layout #stats {
+    color: white;
+}
+
+.wepiano-layout md-dialog {
+	width: 50%;
+	height: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.wepiano-layout md-dialog-content {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.wepiano-layout #mapcontainer {
+	width: 50%;
+	height: 80%;
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#top {
+	width: 100%;
+	height: 100%;
+}
+
+.wepiano-layout md-input-container {
+    min-width: 30vw;
+    max-width: 50vw;
+}
+
+.wepiano-layout label {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.wepiano-layout input[type=text] {
+	font-family: "Somatic Rounded";
+}
+
+.wepiano-layout input {
+	font-size: 24px;
+	-webkit-transition: border-color 0.4s cubic-bezier(.25,.8,.25,1);
+	transition: border-color 0.4s cubic-bezier(.25,.8,.25,1);
+	border-bottom: 1px solid #cecece;
+}
+
+.wepiano-layout md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+    border-color: #ff1464;
+}
+
+.wepiano-layout md-input-container:not(.md-input-invalid).md-input-focused label {
+    color: #ff1464;
+}
+
+.wepiano-layout md-input-container:not(.md-input-invalid).md-input-has-value .md-input {
+    border-color: #ff1464;
+}
+
+.wepiano-layout md-input-container:not(.md-input-invalid).md-input-has-value label {
+    color: #ff1464;
+}
+
+.wepiano-layout .md-button.md-primary.md-raised {
+	font-family: "Somatic Rounded";
+	color: #6056EA;
+	letter-spacing: normal;
+	font-size: 26px;
+	height: initial;
+	padding: 15px 30px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.wepiano-layout .md-button.md-primary.md-raised:not([disabled]):hover {
+	background-color: white;
+}
+
+.wepiano-layout .md-button.md-primary.md-raised:not([disabled]) {
+	box-shadow: none;
+}
+
+.wepiano-layout .md-button.md-primary.md-raised:not([disabled]).md-focused {
+	background-color: white;
+}
+
+#top {
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+#loadingcontainer {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    -webkit-transform: translatez(0);
+    transform: translatez(0);
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+#loading {
+	width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 100;
+    -webkit-transform: translatez(0);
+    transform: translatez(0);
+}
+
+#name {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.9em;
+	font-weight: 700;
+	margin-bottom: .125rem;
+	z-index: 500;
+	position: relative;
+}
+
+#userinfo {
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+/* .wepiano-layout md-input-container.md-input-focused > label {
+	font-size: 16px;
+}
+
+.wepiano-layout md-input-container.md-input-has-value > label {
+	font-size: 16px;
+} */
+
+.wepiano-layout.mdl-layout {
+    overflow-y: hidden;
+}
+
+.wepiano-layout .mdl-layout-title {
+    font-family: "Somatic Rounded";
+    font-weight: 700;
+    color: black;
+}
+
+.wepiano-layout a {
+	text-decoration: none;
+}
+
+.wepiano-layout md-card {
+	background-color: #6056EA;
+}
+
+.wepiano-layout .mdl-layout__content {
+    width: 100%;
+    height: 100%;
+    padding: 3% 10%;
+}
+
+#optionscontainer {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.wepiano-layout .mdl-layout__header {
+    color: black;
+    background-color: #ffff64;
+    min-height: 41px;
+    box-shadow: none;
+}
+
+.wepiano-layout .mdl-layout__drawer-button {
+	color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    outline: none;
+    line-height: normal;
+    margin: 0;
+    width: 41px;
+    height: 41px;
+}
+
+.wepiano-layout .mdl-layout__drawer {
+	background-color: #f7f7f7;
+}
+
+.wepiano-layout .mdl-layout__header-row {
+    height: 41px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+}
+
+.wepiano-layout .mdl-layout__tab-bar {
+	background-color: #ffff64;
+}
+
+.wepiano-layout .mdl-layout__tab {
+	color: rgba(0,0,0, 0.6);
+}
+
+.wepiano-layout .mdl-layout__tab.is-active {
+	color: black;
+}
+
+.wepiano-layout .mdl-layout__tab.is-active:after {
+	background-color: black;
+}
+
+.wepiano-layout .mdl-button {
+	font-family: "Somatic Rounded";
+	letter-spacing: normal;
+	font-size: 26px;
+	height: initial;
+	padding: 15px 30px;
+	margin-top: 15px;
+}
+
+.wepiano-layout #smallcontainer {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;-webkit-box-align: center;-ms-flex-align: center;align-items: center;width: 100%;color: white;text-align: center;font-weight: 100;}
+
+.wepiano-layout #lastnote {width: 350px;}
+
+.wepiano-layout #player {
+	
+display: -webkit-box;
+	
+display: -ms-flexbox;
+	
+display: flex;
+	
+-ms-flex-pack: distribute;
+	
+    justify-content: space-around;
+	
+-webkit-box-align: center;
+	
+    -ms-flex-align: center;
+	
+        align-items: center;
+}
+
+.wepiano-layout #playpause {
+	width: 64px;
+    height: 64px;
+}
+
+.wepiano-layout #stop {
+	width: 64px;
+    height: 64px;
+}
+
+.wepiano-layout #player md-icon {
+	width: 48px;
+	height: 48px;
+}
+
+.wepiano-layout .noUi-target {
+	width: 200px;
+	margin-left: 40px;
+	height: 12px;
+	box-shadow: none;
+	border: none;
+	border-radius: 100px;
+	background-color: white;
+}
+
+.wepiano-layout .noUi-handle {
+	width: 24px;
+	height: 24px;
+	left: -12px;
+	top: -6px;
+	border: white solid 2px;
+	border-radius: 100px;
+	background-color: #6056ea;
+	box-shadow: none;
+	cursor: pointer;
+	-webkit-transition: left 0.5s ease-in-out;
+	transition: left 0.5s ease-in-out;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.wepiano-layout .noUi-origin {
+	-webkit-transition: left 0.1s ease-in-out;
+	transition: left 0.1s ease-in-out;
+}
+
+.wepiano-layout .noUi-connect {
+	-webkit-transition: left, right 0.1s ease-in-out;
+	transition: left, right 0.1s ease-in-out;
+	background-color: #6056ea;
+	box-shadow: none;
+	border-radius: 100px;
+	border: white solid 2px;
+}
+
+.wepiano-layout .noUi-handle:before {
+	content: none;
+}
+.wepiano-layout .noUi-handle:after {
+	left: 0;
+	position: relative;
+	width: 3px;
+	top: 20px;
+	height: 34px;
+	background: rgba(255,255,255,1);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(15%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.wepiano-layout .noUi-base {
+	cursor: pointer;
+}
+
+.wepiano-layout #notes {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 6px;
+}
+
+.wepiano-layout #notes > div {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;border-radius: 6px;overflow: hidden;}
+
+.wepiano-layout #notes > div > div {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.wepiano-layout #length {width: 350px;}
+
+#info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+
+#title {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-family: inherit;
+    line-height: normal;
+    margin: 0;
+    margin-left: 30px;
+}
+
+#wepianologo {
+    height: 15vh;
+    position: relative;
+}
+
+#menucontainer {
+    width: 100%;
+    height: initial;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: static;
+    margin-bottom: 41px;
+    font-family: "Somatic Rounded";
+	margin: 30px 0 30px;
+}
+
+form {
+	margin: 0;
+}
+
+#profile {
+	margin: 0;
+}
+
+#authenticate {
+    margin: 0 0 15px 0;
+}
+
+#profiletext {
+    font-size: 24px;
+}
+
+
+.wepiano-layout .mdl-shadow--2dp {
+    box-shadow: none;
+}
+
+.wepiano-layout .mdl-button--raised {
+    box-shadow: none;
+}
+
+.wepiano-layout .emojione {
+    height: 30px;
+    min-height: 20px;
+    min-width: 20px;
+    margin: 0ex .05em;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#generatedtext {
+    color: #ff1464;
+    text-align: center;
+    width: 70%;
+}
+
+/* ---------------------- PIANO ---------------------- */
+
+#piano-piano {
+    position: relative;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-item-align: center;
+}
+
+#piano-piano::after {
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: white solid 10px;
+    padding: 0 10px 10px;
+    pointer-events: none;
+    z-index: 5;
+}
+
+/** keys */
+
+#piano-piano .piano-keys {
+    padding: 0 10px;
+    position: relative;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.piano-key {
+    float: left;
+    position: relative;
+    width: 3.125vw;
+    height: 16.666666vh;
+    margin: 0 2px 2px 0;
+    background: #fff;
+    border-radius: 0 0 1000px 1000px;
+    outline: none;
+    cursor: pointer;
+}
+.piano-key.piano-pressed,
+.piano-key:active,
+.piano-key:hover {
+    box-shadow: inset 0 0 100px 100px rgba(96, 86, 234, 0.15);
+}
+.piano-key.piano-black {
+    width: 0;
+    margin: 0;
+    z-index: 1;
+}
+.piano-key.piano-black:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -16px;
+    display: block;
+    width: 2.1875vw;
+    height: 10.8333333vh;
+    background: #6056ea;
+    border-radius: 0 0 1000px 1000px;
+}
+.piano-key.piano-black1:after {
+    left: -1.119791666vw;
+}
+.piano-key.piano-black3:after {
+    left: -1.09375vw;
+}
+.piano-key.piano-black2:after {
+    left: -1.09375vw;
+}
+.piano-key.piano-black.piano-pressed:after,
+.piano-key.piano-black:active:after,
+.piano-key.piano-black:hover:after {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.15);
+}
+
+
+/** help */
+
+.piano-loop,
+.piano-help {
+    position: absolute;
+    top: 25px;
+    right: 42px;
+    width: 20px;
+    height: 20px;
+    color: transparent;
+    background: rgba(255, 255, 255, .25);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .35), 1px 0 0 rgba(0, 0, 0, .35), 0 1px 0 rgba(0, 0, 0, .35), inset 1px 1px 0 rgba(255,255,255,.4);
+    border-radius: 2px;
+    z-index: 10;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.piano-loop.piano-active,
+.piano-loop:active,
+.piano-help.piano-show,
+.piano-help:active {
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .35);
+}
+
+.piano-loop {
+    right: 82px;
+}
+
+.piano-help .piano-help-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+
+    transition: all 1s;
+    -moz-transition: all 1s; /* Firefox 4 */
+    -webkit-transition: all 1s; /* Safari and Chrome */
+    -o-transition: all 1s; /* Opera */
+}
+
+.piano-help.piano-show .piano-help-inner {
+    top: 55px;
+    padding: 20px;
+    width: 740px;
+    height: 142px;
+    line-height: 24px;
+    color: #eee;
+    background: rgba(0, 0, 0, .85);
+    border-radius: 4px;
+    cursor: default;
+}
+
+.piano-help.show:focus { outline: none; }
+
+.piano-opts { margin: 0; overflow: hidden; zoom: 1; width: 740px; height: 36px; line-height: 36px; }
+.piano-opts p { float: left; margin: 0 10px 0 0; }
+.piano-opts p:first-child { width: 6em; }
+.piano-opts p .piano-selected { color: #999; font-style: italic; }
+
+.piano-toggle { cursor: pointer; }
+
+.piano-help a {
+    display: inline-block;
+    padding: 0 2px;
+    color: #ccc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.piano-help a:before {
+    content: "_";
+}
+.piano-help a:after {
+    content: "_";
+}
+
+::-moz-selection {
+  background: white; /* WebKit/Blink Browsers */
+}
+
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: white; /* Gecko Browsers */
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*--------------------------------------------*/
+
+
+#load {
+  width: 10vw;
+  max-width: 192px;
+  display: block;
+  margin: 0 auto;
+  overflow:visible;
+  -webkit-transform: translatez(0);
+  transform: translatez(0);
+}
+
+@media screen and (orientation: portrait) {
+	.badgebox {
+		width: 100%
+	}
+}
